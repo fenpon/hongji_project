@@ -1,0 +1,1 @@
+﻿<iframe src=&quot;https://www.google.com/calendar/embed?src=<roundcube:object name=&quot;username&quot; />&ct z=Europe/London&quot; style=&quot;border: 0&quot; width=&quot;100%&quot; height=&quot;90%&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;></iframe>

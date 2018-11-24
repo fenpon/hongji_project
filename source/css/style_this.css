@@ -1,0 +1,128 @@
+
+@font-face {
+  font-family: 'hongji_font';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v10/eWRmKHdPNWGn_iFyeEYjaxJVFIDcAmz_xdaO4iposbc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'hongji_font';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v10/eWRmKHdPNWGn_iFyeEYjawmpp9opcZztmOKdRoeEHCU.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'hongji_font';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v10/eWRmKHdPNWGn_iFyeEYja6EWXqnGSfwnQD3YDlprsb0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body{padding: 0; margin: 0;}
+a{color:black; text-decoration:none;}
+.font{font-family:'hongji_font','Nanum Gothic', sans-serif; }
+#font_this{width:100%;}
+ul,li {margin:0; padding:0; list-style-type: none; }
+#menu_1{position: absolute;  z-index: 1;}
+#sub_1{z-index: 1;}
+#menu_2{position: relative;  float: right; z-index: 2;}
+
+
+#menu_div {  height:40px;  padding-left:10%;}
+#main_bar{margin-bottom: 100px;}
+#main_board{margin-left: 10%; height:auto;}
+#contact{margin-left: 10%;}
+@media (min-width:1600px ) 
+{
+	#img_title{width:150px;}
+	#menu_1{width: 80%;}
+	#menu_div {width:80%; padding-top:100px; padding-bottom:100px;} 
+	#main_board{width:80%;}
+	#contact{width:80%;}
+	#menu_2 tr td{padding-left:100px;}
+    #title_tag{padding-bottom: 70px;}
+}
+@media (max-width: 1599.9px) and (min-width: 1100px)
+{
+	#img_title{width:130px;}
+	#menu_1{width: 80%;}
+	#menu_div {width:80%; padding-top:90px; padding-bottom:90px;}
+	#main_board{width:80%;}
+	#contact{width:80%;}
+	#menu_2 tr td{padding-left:70px;}
+    #title_tag{padding-bottom: 60px;}
+}
+@media (max-width: 1099.9px) and (min-width: 800px)
+{
+	#img_title{width:110px;}
+	#menu_1{width: 80%;}
+	#menu_div {width:80%; padding-top:70px; padding-bottom:70px;}
+	#main_board{width:80%;}
+	#contact{width:80%;}
+	#menu_2 tr td{padding-left:40px;}
+    #title_tag{padding-bottom: 40px;}
+}
+@media (max-width: 799.9px)
+{
+	#img_title{width:90px;}
+	#menu_1{width: 600px;}
+	#menu_div {width:600px; padding-top:60px; padding-bottom:60px;}
+	#main_board{width:600px;}
+	#contact{width:600px;}
+	#menu_2 tr td{padding-left:25px;}
+    #title_tag{padding-bottom: 30px;}
+}
+
+
+#design_0{width:100%; }
+#design_1{width:100%; padding-top: 5%;}
+#design_2{width:100%; }
+#design_3{width:100%; padding-top: 5%;}
+#design_4{width:100%;  }
+#design_5{width:100%; padding-top: 5%;}
+#design_6{width:100%; padding-top: 5%;}
+
+#td_tag_1{
+	float: left; 
+	width : 94%;/*구식브라우져*/
+	width : -webkit-calc(94% / 3 - 1px); /* for Chrome, Safari */
+    width :    -moz-calc(94% / 3 - 1px); /* for Firefox */
+    width :         calc(94% / 3 - 1px); /* for IE */
+    
+    padding-left:1%;
+    padding-right:1%;    
+}
+#td_tag_2{
+	float: left; 
+    width : 94%;/*구식브라우져*/
+    width : -webkit-calc(94% / 3 - 1px); /* for Chrome, Safari */
+    width :    -moz-calc(94% / 3 - 1px); /* for Firefox */
+    width :         calc(94% / 3 - 1px); /* for IE */
+    
+    padding-left:1%;
+    padding-right:1%;   
+
+    
+    }
+#td_tag_3{ 
+	float: left; 
+    width : 94%;/*구식브라우져*/
+    width : -webkit-calc(94% / 3 - 1px); /* for Chrome, Safari */
+    width :    -moz-calc(94% / 3 - 1px); /* for Firefox */
+    width :         calc(94% / 3 - 1px); /* for IE */
+    
+    padding-left:1%;
+    padding-right:1%;   
+
+}
+#title_tag{padding-top:5%; }
+#img_tag{width:100%; height: auto; }
+#home_menu:hover{opacity: 0.7;}
+#work_menu:hover{opacity: 0.7;}
+#ill_menu:hover{opacity: 0.7;}
+#con_menu:hover{opacity: 0.7;}
